@@ -14,13 +14,13 @@ export const personalInfo: PersonalInfo = {
 export const skills: Skill[] = [
   {
     icon: <Layout className="w-5 h-5" />,
-    title: "Frontend Architecture",
-    description: "Expert in building scalable component systems and micro-frontends"
+    title: "Robust products",
+    description: "Expert in building scalable and well-tested systems"
   },
   {
     icon: <Code className="w-5 h-5" />,
-    title: "Modern Stack",
-    description: "React, TypeScript, Next.js, Tailwind CSS"
+    title: "Fullstack builder",
+    description: "React, TypeScript, Django, Ruby on Rails, SQL, Mongo"
   },
   {
     icon: <Palette className="w-5 h-5" />,
