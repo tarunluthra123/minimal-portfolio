@@ -4,9 +4,9 @@ import { PersonalInfo, Skill, ExperienceItem, BlogPost } from "../types";
 export const personalInfo: PersonalInfo = {
   name: "Tarun Luthra",
   title: "Software Engineer",
-  bio: "Frontend-focused software engineer specializing in creating exceptional user experiences with modern web technologies. Passionate about responsive design, component architecture, and building performant web applications using React, TypeScript, and modern CSS.",
+  bio: "Software engineer specializing in creating exceptional user experiences with modern web technologies. Passionate about responsive design, component architecture, and building performant web applications using React, TypeScript, and modern CSS.",
   github: "https://github.com/tarunluthra123",
-  linkedin: "https://www.linkedin.com/in/tarunluthra123/",
+  linkedin: "https://www.linkedin.com/in/andromedus/",
   email: "tluthra987@gmail.com",
   resume: "/path-to-your-resume.pdf",
 };
@@ -35,7 +35,7 @@ export const experiences: ExperienceItem[] = [
     position: "Software Engineer II",
     period: "2024 - Present",
     description:
-      "Leading frontend development initiatives, architecting component libraries, and implementing responsive web applications. Reduced bundle size by 45% through code splitting and lazy loading strategies. Mentoring junior developers in React best practices.",
+      "Leading frontend development initiatives in Custom Objects team. Building new features to enable developer-ecosystem and custom apps. Writing unit and e2e tests for reliability.",
     tech: ["React", "TypeScript", "React-Query", "Django", "MongoDB"],
     companyLink: "https://www.rippling.com/",
   },
@@ -44,7 +44,7 @@ export const experiences: ExperienceItem[] = [
     position: "Software Engineer",
     period: "2021 - 2024",
     description:
-      "Developed and maintained the company's design system, built reusable UI components, and implemented complex interactive features. Improved application performance by implementing efficient rendering strategies.",
+      "Developed and maintained internal career portal and recruiter dashboard, built reusable UI components, and implemented complex interactive features. Improved application performance by implementing efficient rendering strategies.",
     tech: ["React", "JavaScript", "SCSS", "Redux", "Ruby on Rails", "SQL"],
     companyLink: "https://www.scaler.com/",
   },
@@ -53,23 +53,44 @@ export const experiences: ExperienceItem[] = [
     position: "Software Engineer",
     period: "2021",
     description:
-      "Developed and maintained the company's design system, built reusable UI components, and implemented complex interactive features. Improved application performance by implementing efficient rendering strategies.",
-    tech: ["React", "JavaScript", "SCSS", "Webpack"],
+      "Enhanced in-house annotation tool, improved performance, integrated Level app to Talkdesk, and built features to improve AI/ML engineering team's productivity.",
+    tech: ["React", "JavaScript", "Django", "SQL"],
     companyLink: "https://thelevel.ai/",
   },
 ];
 
 export const blogs: BlogPost[] = [
   {
-    title: "Building a Scalable Component Library",
-    date: "Mar 2024",
-    description: "A deep dive into creating maintainable and reusable React components with TypeScript.",
-    link: "#"
+    title: "useFirstRender() - Building a custom React hook",
+    description:
+      "Building a custom React hook which allows us to check whether the component is currently on the first render.",
+    link: "https://tarunluthra.hashnode.dev/usefirstrender-building-a-custom-react-hook",
   },
   {
-    title: "Modern CSS Best Practices",
-    date: "Feb 2024",
-    description: "Exploring CSS architecture, custom properties, and modern layout techniques.",
-    link: "#"
-  }
+    title: "JS Proxy for Beginners",
+    description:
+      "A powerful inbuilt utility to control your JavaScript objects",
+    link: "https://tarunluthra.hashnode.dev/js-proxy-for-beginners",
+  },
+  {
+    title: "Pros and Cons of JWTs (JSON Web Tokens)",
+    description:
+      "Benefits & Drawbacks of JWTs and when & when not to use them.",
+    link: "https://tarunluthra.hashnode.dev/pros-and-cons-of-jwts-json-web-tokens",
+  },
+  {
+    title: "How to lock/freeze a Javascript Object ? 🔓",
+    description: "Learn how to create truly immutable objects in Javascript.",
+    link: "https://tarunluthra.hashnode.dev/how-to-lock-freeze-a-javascript-object-ef180eea9cab",
+  },
+  {
+    title: "JWT Authentication with Django REST Framework— The easy way",
+    description: "Learn how to use JWT Authentication with Django REST API.",
+    link: "https://tarunluthra.hashnode.dev/jwt-authentication-with-django-rest-framework-the-easy-way-f1c8583aac29",
+  },
+  {
+    title: "Stop using boolean type in your code",
+    description: "Why you shouldn't always use booleans in your contracts and what else is better ?",
+    link: "https://tarunluthra.hashnode.dev/stop-using-boolean-type-in-your-code",
+  },
 ];

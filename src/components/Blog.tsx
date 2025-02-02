@@ -15,7 +15,7 @@ export function Blog({ blogs }: BlogProps) {
           <div key={index} className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow">
             <div className="flex justify-between items-start mb-2">
               <h3 className="text-xl font-semibold text-gray-900">{blog.title}</h3>
-              <span className="text-sm text-gray-500">{blog.date}</span>
+              {/* <span className="text-sm text-gray-500">{blog.date}</span> */}
             </div>
             <p className="text-gray-600 mb-4">{blog.description}</p>
             <a 

@@ -15,7 +15,7 @@ export interface ExperienceItem {
 
 export interface BlogPost {
   title: string;
-  date: string;
+  date?: string;
   description: string;
   link: string;
 }
